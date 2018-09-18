@@ -43,7 +43,6 @@ matrix:
       env: TRUE_CC=gcc TRUE_CXX=g++ PIE=
       addons:
         apt:
-          sources:
           packages:
             - nasm
     - compiler: gcc-4.9
